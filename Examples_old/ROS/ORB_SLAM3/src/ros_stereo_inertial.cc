@@ -282,6 +282,8 @@ void ImuGrabber::GrabImu(const sensor_msgs::ImuConstPtr &imu_msg)
 {
   mBufMutex.lock();
   imuBuf.push(imu_msg);
+  // !=0, "not IMU meas" in Tracking.cc? see SyncWithImu()
+  // printf("imuBuf size: %d\n", imuBuf.size());
   mBufMutex.unlock();
   return;
 }

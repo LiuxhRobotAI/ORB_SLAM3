@@ -40,7 +40,7 @@ ThDepth: 40.0
 # Camera.bf: 46.01
 # Camera.bf: 183.35
 Camera.bf: 91.675 # 183.35/2.0 ?
-# fx: f/dx; unit: f(mm), dx (mm/Pixel)。fx(Pixel)
+# fx=f/dx; unit: f(mm), dx (mm/Pixel)。fx(Pixel)
 # bf=b*f (mm): the product of the stereo camera baseline and the camera focal length.
 # bf = 95*1.93=183.35(d455), 50*1.93=96.5
 
@@ -80,16 +80,16 @@ IMU.Frequency: 200
 # ORB Extractor: Number of features per image
 ORBextractor.nFeatures: 1250
 
-# ORB Extractor: Scale factor between levels in the scale pyramid 	
+# ORB Extractor: Scale factor between levels in the scale pyramid
 ORBextractor.scaleFactor: 1.2
 
-# ORB Extractor: Number of levels in the scale pyramid	
+# ORB Extractor: Number of levels in the scale pyramid
 ORBextractor.nLevels: 8
 
 # ORB Extractor: Fast threshold
 # Image is divided in a grid. At each cell FAST are extracted imposing a minimum response.
 # Firstly we impose iniThFAST. If no corners are detected we impose a lower value minThFAST
-# You can lower these values if your images have low contrast			
+# You can lower these values if your images have low contrast
 ORBextractor.iniThFAST: 20
 ORBextractor.minThFAST: 7
 

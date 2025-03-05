@@ -66,6 +66,8 @@ Thirdparty/g2o/config.h
 Thirdparty/g2o/lib/
 Vocabulary/ORBvoc.txt
 build/
+FrameTrajectory_*_Format.txt
+KeyFrameTrajectory_*_Format.txt
 
 lib/
 
